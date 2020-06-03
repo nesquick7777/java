@@ -10,13 +10,13 @@ public static void main(String[] args) {
 	int k = Integer.parseInt(JOptionPane.showInputDialog("Unesi broj 3"));
 	
 	if(i>j && i>k) {
-		System.out.println("1. je najveci");
+		System.out.println("najveci " +i);
 	}else if(j>i && j>k){
-		System.out.println("1. je najveci");
+		System.out.println("najveci " +j);
 	}else if(k>i && k>j){
-		System.out.println("3. je najveci");
+		System.out.println("najveci " +k);
 	}else {
-		System.out.println("Ima jednakih");
+		System.out.println("najveci " +i);
 	}
 }
 	
