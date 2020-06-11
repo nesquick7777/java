@@ -5,8 +5,11 @@ import javax.swing.JOptionPane;
 public class Spirala {
 public static void main(String[] args) {
 	
-	int r= Integer.parseInt(JOptionPane.showInputDialog("Broj redaka"));
-	int s= Integer.parseInt(JOptionPane.showInputDialog("Broj stupaca"));
+	int r,s;
+	do {
+	r= Integer.parseInt(JOptionPane.showInputDialog("Broj redaka"));
+	s= Integer.parseInt(JOptionPane.showInputDialog("Broj stupaca"));
+	}while(r<=0 || s<=0);
 	int[][] matrix = new int[r][s];
 	
 	int i = 0;
