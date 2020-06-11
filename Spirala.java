@@ -56,6 +56,9 @@ while(w!=(r+s)){
 						j++;
 					}
 					else if (j == s - w) {
+						if(matrix[i][j] != 0) {
+							break;
+						}
 						matrix[i][j] = temp++;
 						j++;
 					}
