@@ -66,11 +66,15 @@ while(w!=(r+s)){
 			}
 			if (l) {
 				i++;
+				if(s==1){
+					break;
+				}
 			}
 			else {
 				i--;
 			}
 			if (i == 0 + (w - 1)) {
+				
 				l = true;
 				z = false;
 			}
