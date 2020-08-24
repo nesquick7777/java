@@ -9,8 +9,8 @@ ime varchar(50) not null,
 zanr varchar(50) not null,
 podzanr varchar(50),
 mjesto varchar(50) not null,
-datumpocetka year not null,
-datumkraja year
+datumpocetka varchar(50) not null,
+datumkraja varchar(50)
 );
 
 create table album(
