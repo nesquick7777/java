@@ -121,9 +121,8 @@ public class Start {
 		public static void adresa(String url) {
 
 			try {
-				Desktop desktop = java.awt.Desktop.getDesktop();
-				URI goTo = new URI(url);
-				desktop.browse(goTo);
+				Desktop d = Desktop.getDesktop();
+				d.browse(new URI(url));
 
 			} catch (Exception e) {
 				e.printStackTrace();
